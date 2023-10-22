@@ -9,4 +9,4 @@ Para esse projeto eu estou utilizando as seguintes tecnologias:
 - [ReactJS](https://react.dev/learn)
 - [Remix Icon](https://remixicon.com)
 
-<img src="./halloween-app/src/images/bg.png" />
+<img src="https://raw.githubusercontent.com/andrezadesousa/halloween-website/main/src/images/bg.png" />
