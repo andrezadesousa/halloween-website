@@ -14,7 +14,7 @@ export default () => {
         </a>
 
         <div className={`nav__menu ${showLinks ? "active" : "inactive"}`} id="nav-menu">
-          <ul className="nav__list" onClick={()=>{setShowLinks(!showLinks)}}>
+          <ul id="nav-list" className="nav__list" onClick={()=>{setShowLinks(!showLinks)}}>
             <NavLink link="#home" title="Home" />
             <NavLink link="#about" title="About Us" />
             <NavLink link="#portfolio" title="Portfolio" />

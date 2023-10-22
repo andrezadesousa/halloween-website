@@ -59,15 +59,31 @@
   }
 }
 
-.nav__list{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    row-gap: 3rem;
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 3rem;
 }
 
-.nav__close{
-    position: absolute;
-    top: 1rem;
-    right: 1.5rem;
-}  
+.nav__close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
+
+@media screen and (min-width: 1150px) {
+  .nav {
+    height: calc(var(--header-height) + 2rem);
+  }
+
+  .nav__close,
+  .nav__toggle {
+    display: none;
+  }
+
+  .nav__list {
+    flex-direction: row;
+    column-gap: 4rem;
+  }
+}

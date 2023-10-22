@@ -70,3 +70,26 @@
   .main {
     overflow: hidden;
   }
+
+@media screen and (max-width: 330px){
+  .container{
+    margin-inline: 1rem;
+  }
+}
+
+@media screen and (min-width: 1150px){
+  .container{
+    margin-inline: auto;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  ::-webkit-scrollbar{
+    width: .6rem;
+    background-color: hsl(202, 16%, 15%);
+  }
+  ::-webkit-scrollbar-thumb{
+    width: .6rem;
+    background-color: hsl(202, 16%, 25%);
+  }
+}
