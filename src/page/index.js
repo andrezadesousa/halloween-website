@@ -3,12 +3,15 @@ import React from "react";
 import "./index.css";
 
 import Header from "./header";
+import Home from "./home";
 
 export default () => {
   return (
     <React.StrictMode>
       <Header />
-      <main></main>
+      <main className="main">
+        <Home />
+      </main>
     </React.StrictMode>
   );
 };
